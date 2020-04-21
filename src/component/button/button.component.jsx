@@ -6,6 +6,7 @@ const Button = ({ onClick }) => {
             onClick={onClick}
             data-testid="nice-button">
             hi
+            <div className="remindly-pencil"></div>
         </button>
     )
 }

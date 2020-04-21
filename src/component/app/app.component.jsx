@@ -1,7 +1,12 @@
 import React from 'react'
+import { Button } from '../button'
 
 const RemindlyApp = () => {
-    return <div>Hello</div>
+    return (
+        <div>
+            <Button/>
+        </div>
+    )
 }
 
 export { RemindlyApp }

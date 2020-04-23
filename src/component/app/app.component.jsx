@@ -1,7 +1,8 @@
 import React from 'react'
 import { ActionBar } from '../action-bar'
 
-const RemindlyApp = () => {
+
+const  RemindlyApp = () => {
     return (
         <div>
             <ActionBar/>

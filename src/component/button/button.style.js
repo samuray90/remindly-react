@@ -20,7 +20,7 @@ export const StyledButton = styled.button`
         content: '${({ label }) => label}';
         position: absolute;
         top: 40px;
-        width: 0;
+        left: 0;
         width: 100%;
         height: 100%;
         transition: 100ms;
@@ -35,7 +35,4 @@ export const StyledButton = styled.button`
         padding-left: 8px;
     }
 
-    & > span:empty {
-        /* display: none; */
-    }
 `
